@@ -22,12 +22,15 @@ Implentation of this library is straightforward
 1. include the library
 <br>
 #include "MCP3208.h"
-2. create an object instance(s)
+<br>
+3. create an object instance(s)
 <br>
 MCP3208 MyADC(CS_PIN);
+<br>
 5. initialize the object(s)
 <br>
 bool success = MyADC.init(); // object attempts to return true if successful
+<br>
 7. call object.analogRead(channel)
 <br>
 uint16_t thing = MyADC.analogRead(CH0);
@@ -36,7 +39,7 @@ uint16_t thing = MyADC.analogRead(CH0);
 
 Typical wiring, note the use of a buffer to shift the output of MISO (DO) to be compatible with 3v3 MCU's
 
-![header image](https://raw.github.com/KrisKasprzak/LTC1867/master/images/TypicalWiring.jpg)
+![header image](https://raw.github.com/KrisKasprzak/MCP3208/master/Images/MCP3208_Wiring.jpg)
 <br>
 <br>
 <br>
