@@ -6,9 +6,9 @@ This library is itended for microcontroller applications using Teensy (3.x to 4.
 Perfomance is as follows
 <table>
   <tr>
-    <th>Data</th>
-    <th>MCP3208</th>
+    <th>Data</th>   
     <th>Teensy 4.0</th>
+    <th>MCP3208</th>
   </tr>
   <tr>
     <td>analogRead</td>
