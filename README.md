@@ -23,17 +23,19 @@ Implentation of this library is straightforward
 <br>
 #include "MCP3208.h"
 <br>
-3. create an object instance(s)
+2. create an object instance(s)
 <br>
 MCP3208 MyADC(CS_PIN);
 <br>
-5. initialize the object(s)
+3. initialize the object(s)
 <br>
 bool success = MyADC.init(); // object attempts to return true if successful
 <br>
-7. call object.analogRead(channel)
+4. call object.analogRead(channel)
 <br>
 uint16_t thing = MyADC.analogRead(CH0);
+<br>
+float data = thing * 3.3 / 4096.0f;
 <br>
 <br>
 
