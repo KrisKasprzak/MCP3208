@@ -39,7 +39,7 @@ float data = thing * 3.3 / 4096.0f;
 <br>
 <br>
 
-Typical wiring, note the use of a buffer to shift the output of MISO (DO) to be compatible with 3v3 MCU's
+Typical wiring
 
 ![header image](https://raw.github.com/KrisKasprzak/MCP3208/master/Images/MCP3208_Wiring.jpg)
 <br>
