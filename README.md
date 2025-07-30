@@ -1,7 +1,7 @@
 
-<b><h2><center>Library for the MCP3208, a 14 bit analog to digital converter from Analog Devices</center></h1></b>
+<b><h2><center>Library for the MCP3208, a 14 bit analog to digital converter from Microchip</center></h1></b>
 
-This library is itended for microcontroller applications using Teensy (3.x to 4.x),  ESP's, and Arduinos where additional analog inputs or higher resulution inputs are needed. This library supports all the features offered by the LTC1867 such as reading an input channel in single or differential mode, using GND or CH7 as the common pin, and putting the analog to digital converter to sleep to save power between infrequent reads. See the .h file for all the constants to set channels and options.
+This library is itended for microcontroller applications using Teensy (3.x to 4.x),  ESP's, and Arduinos where additional analog inputs are needed. My simple tests show no improvement over noise control but provide a reading slower that at Cortex M4. This is a very basic library offering single ended inputs only.
 
 Perfomance is as follows
 <table>
